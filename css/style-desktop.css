@@ -23,27 +23,26 @@ header {
     background-color: black;
     margin: auto;
     height: 125px;
-    text-align: center;
 }
 
 header div img {
   display: block;
-  margin: auto;
   height: 50px;
   width: 150px;
-  text-align: center;
   padding-top: 40px;
+  padding-left: 20px;
 }
 
 
 .space-title {
     background-image: url(/images/banner.jpg);
     background-position: center;
-    background-size: contain; 
+    background-size: cover; 
     line-height: 1.5em;
     height: 350px; 
     text-align: center;
     display: block;
+    padding-top: 75px;
 }
 
 div div h1 {
@@ -73,6 +72,8 @@ div div h1 {
 
 .header-description {
     margin-bottom: 25px;
+    padding-left: 195px;
+    padding-right: 195px;
 
 }
 
@@ -82,12 +83,12 @@ div div h1 {
 main {
     background-color: white;
     padding: 150px auto;
+    
 }
 
 .main {
     padding: 25px;
-    font-weight: bold;
-
+    font-weight: bold;    
 }
 
 .title-main {
@@ -97,12 +98,37 @@ main {
 }
 
 .description-main {
-    padding: 15px;
+    padding-bottom: 15px;
 }
 
 main img {
-    border-radius: 250px;
-    padding: 30px;
+    border-radius: 350px;
+    padding-top: 70px;
+    padding-right: 50px;
+    width: 500px;
+    height: auto;
+    margin: 0%;
+    display: inline-block;
+}
+div section {
+    width: fit-content;
+    display: inline-block;
+}
+
+.main-text {
+    width: 30%;
+    height: auto;
+    margin: 0%;
+    display: inline-block;
+    padding-bottom: 50px;
+    text-align: start;
+
+} 
+
+.main-block {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
@@ -110,7 +136,7 @@ main img {
 /* style ARTICLE */
 
 article {
-    background-color: #f04c2f;
+    background-color: #e22d0e;
     color: white;
     padding: 30px;
 }
@@ -141,7 +167,6 @@ article {
 aside {
     background-color: white;
     padding: 45px;
-    display: block;
 }
 
 .box-image img {
@@ -159,6 +184,25 @@ aside {
     color: #25a2c3;
     font-weight: bold;
 
+}
+
+
+aside div .box-inline {
+    display: inline-block;
+    width: 100%;
+}
+
+.box-section {
+    width: 30%;
+    height: auto;
+}
+
+.description-aside {
+    font-size: 0.8em;
+}
+
+section div .box-image .img2 {
+    width: 600px;
 }
 
 
@@ -192,11 +236,9 @@ section {
 .footer-copyright {
     border-top: white 0.5px solid;
     font-size: 0.8em;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 35px;
+    margin-left: 550px;
+    margin-right: 550px;
     padding-top: 25px;
     padding-bottom: 25px;
-
 }
 
