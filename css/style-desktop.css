@@ -102,10 +102,10 @@ main {
 }
 
 main img {
-    border-radius: 350px;
-    padding-top: 70px;
-    padding-right: 50px;
-    width: 500px;
+    border-radius: 300px;
+    padding-top: 30px;
+    padding-right: 80px;
+    width: 400px;
     height: auto;
     margin: 0%;
     display: inline-block;
@@ -201,6 +201,16 @@ aside div .box-inline {
     font-size: 0.8em;
 }
 
+#img2 {
+    width: 542px;
+    height: 361px;
+}
+
+#img3 {
+    width: 542px;
+    height: 361px;    
+}
+
 /* style FOOTER */
 
 footer {
@@ -231,8 +241,8 @@ section {
 .footer-copyright {
     border-top: white 0.5px solid;
     font-size: 0.8em;
-    margin-left: 550px;
-    margin-right: 550px;
+    margin-left: 750px;
+    margin-right: 750px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
