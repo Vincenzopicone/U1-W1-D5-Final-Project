@@ -141,6 +141,7 @@ article {
 aside {
     background-color: white;
     padding: 45px;
+    display: block;
 }
 
 .box-image img {
