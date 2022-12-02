@@ -1,1 +1,201 @@
-/* Your styles here */
+/* Yo/* style BODY */
+
+body {
+    max-width: 1920px;
+    min-width: 1366px;
+    margin: auto;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 1.2em;
+    line-height: 1.65em;
+    background-color: #393d41;
+    font-weight: bold;
+    }
+
+/* style HEADER */
+
+header {
+    text-align: center;  
+    font-family: Montserrat (bold);
+}
+
+.space-logo {
+    background-color: black;
+    margin: auto;
+    height: 125px;
+    text-align: center;
+}
+
+header div img {
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+
+.space-title {
+    background-image: url(/images/banner.jpg);
+    background-position: center;
+    background-size: contain; 
+    line-height: 1.5em;
+    height: 350px; 
+    text-align: center;
+    display: block;
+}
+
+div div h1 {
+    color: #25a2c3;
+    font-size: 2.5em;
+    align-items: center;
+    font-weight: 900;
+    margin-bottom: 35px;
+    padding-top:  25px;
+    line-height: 1em;
+}
+
+.button-header {
+    background-color: #f04c2f;
+    font-family: Montserrat (bold);
+    font-weight:bold;
+    font-size: 1.1em;
+    color: white;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    width: 150px;
+
+
+}
+
+.header-description {
+    margin-bottom: 25px;
+
+}
+
+
+/* style MAIN */
+
+main {
+    background-color: white;
+    padding: 150px auto;
+}
+
+.main {
+    padding: 25px;
+    font-weight: bold;
+
+}
+
+.title-main {
+    color: #25a2c3;
+    font-weight: bolder;
+
+}
+
+.description-main {
+    padding: 15px;
+}
+
+main img {
+    border-radius: 250px;
+    padding: 30px;
+}
+
+
+
+/* style ARTICLE */
+
+article {
+    background-color: #f04c2f;
+    color: white;
+    padding: 30px;
+}
+
+.title-article {
+    font-size: 1.5em;
+    padding: 25px;
+    font-weight: bolder;
+
+}
+
+.description-article {
+    font-style: italic;
+    padding: 25px;
+}
+
+.autore-article {
+    font-size: 1.1em;
+
+}
+
+.final-article {
+    font-size: 0.1em;
+} 
+
+/* style ASIDE */
+
+aside {
+    background-color: white;
+    padding: 45px;
+}
+
+.box-image img {
+    width: 100%;
+    height: 100%;
+} 
+
+.box-aside {
+    border: solid 0.5px #dee1e3;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.title-aside {
+    color: #25a2c3;
+    font-weight: bold;
+
+}
+
+
+/* style FOOTER */
+
+footer {
+    background-color: #25a2c3;
+    color: white;    
+}
+div p a {
+    color: white;
+}
+
+section {
+    font-weight: bold;
+}
+
+.title-footer {
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 25px;
+}
+
+.description-footer {
+    font-size: 0.8em;
+    line-height: 1.65em;
+    padding-bottom: 25px;
+
+}
+
+.footer-copyright {
+    border-top: white 0.5px solid;
+    font-size: 0.8em;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
