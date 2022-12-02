@@ -16,6 +16,7 @@ body {
 
 header {
     text-align: center;  
+    font-family: Montserrat (bold);
 }
 
 .space-logo {
@@ -39,7 +40,6 @@ header div img {
     background-image: url(/images/banner.jpg);
     background-position: center;
     background-size: contain; 
-    font-family: Montserrat (bold);
     line-height: 1.5em;
     height: 350px; 
     text-align: center;
@@ -167,7 +167,7 @@ footer {
     background-color: #25a2c3;
     color: white;    
 }
-div div a {
+div p a {
     color: white;
 }
 
