@@ -195,6 +195,7 @@ aside div .box-inline {
 .box-section {
     width: 30%;
     height: auto;
+    vertical-align:auto;
 }
 
 .description-aside {
@@ -202,14 +203,15 @@ aside div .box-inline {
 }
 
 #img2 {
-    width: 542px;
-    height: 361px;
+    width: 100%;
+    height: 110%;
 }
 
 #img3 {
-    width: 542px;
-    height: 361px;    
+    width: 100%;
+    height: 120%;    
 }
+
 
 /* style FOOTER */
 
@@ -241,8 +243,8 @@ section {
 .footer-copyright {
     border-top: white 0.5px solid;
     font-size: 0.8em;
-    margin-left: 750px;
-    margin-right: 750px;
+    margin-left: 45%;
+    margin-right: 45%;
     padding-top: 25px;
     padding-bottom: 25px;
 }
